@@ -36,7 +36,7 @@
 }
 
 .main-nav > li {
-	@include span-columns(2);
+	@include span-columns(1.5);
 	@include omega;
 	position: relative;
 	border-left: 2px solid lighten( $light-grey, 5% );
