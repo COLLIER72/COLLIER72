@@ -1,0 +1,56 @@
+= provide(:title, 'Gather Supplies')
+= javascript_include_tag "supplies"
+.main-container.things
+  = render :partial => "partials/header"
+  .opening.supplies
+    %h1 You’re more prepared than you think.
+    %div
+      %p Whether you’re just starting out or a preparedness pro, gathering your emergency supplies is easy. A good rule of thumb is to have supplies for about 3 days, or 72 hours. You’ll be surprised at how much you already have.
+  .action-bar
+    %ul.tabs
+      %li.essentials-trigger.active
+        %a{href:"#tab-essentials-content"} Essentials
+      %li
+        %a{href:"#tab-useful-content"} Useful
+      %li
+        %a{href:"#tab-personal-content"} Personal
+  %ul.tabs-content 
+    %li.tab-essentials-content
+      %p.tab-tip In addition to the standard supplies, certain things will help you—and only you—manage during an emergency. Set aside a few items that will give you and your family extra comfort.
+      %ul.things-list.essential
+        - @essentials.each do |item|
+          %li
+            .use-case-dialog
+              #{item.use_case}
+            = retina_image_tag item.image, item.title
+            %h4 #{item.title}
+            %p.overlay-text #{item.use_case}
+    %li.tab-useful-content
+      %p.tab-tip These items represent things that many people want in an emergency—but don’t always think of. Stash them away, and you’ll get through the first 72 hours more easily.
+      %ul.things-list.useful
+        - @useful.each do |item|
+          %li
+            .use-case-dialog
+              #{item.use_case}
+            = retina_image_tag item.image, item.title
+            %h4 #{item.title}
+            %p.overlay-text #{item.use_case}
+    %li.tab-personal-content
+      %p.tab-tip In addition to the standard supplies, certain things will help you—and only you—manage during an emergency. Set aside a few items that will give you and your family extra comfort.
+      %ul.things-list.personal
+        - @personal.each do |item|
+          %li
+            .use-case-dialog
+              #{item.use_case}
+            = retina_image_tag item.image, item.title
+            %h4 #{item.title}
+            %p.overlay-text #{item.use_case}
+  .kits
+    %h2 Sharing is caring.
+    %p Emergencies are opportunities to come together and support those around you. What items would you’d like to share? Uncorking a bottle of wine, singing songs, or sharing  a meal are even more meaningful in the days after an emergency than before.
+    %ul.kits-list
+      - @kits.each do |kit|
+        %li
+          = retina_image_tag kit.image, kit.title
+          %span #{kit.title}
+  = render :partial => "partials/footer"
