@@ -7,7 +7,7 @@
 	padding: 20px 30px;
 	
 	.by-line {
-		@include span-columns(5);
+		@include span-columns(6);
 		font-family: $font-regular;
 		@include shift(2);
 		position: relative;
@@ -19,8 +19,37 @@
 			color: $mid-grey;
 		}
 	}
+	
+	.by-line:before {
+		content: url("/assets/static/cc_logo.png");
+		position: absolute;
+		display: block; 
+  		width: 100%; 
+  		max-width: 169px; 
+ 		height: 66px; 
+ 		left: -11rem;
+        bottom: -.2rem;
+        }
 
-	/* .by-line:before {
+
+
+	/* this might be better, would be responsive, just doesn't work yet
+	.by-line:before {
+  		content:'';
+  		display: block; 
+  		width: 100%; 
+  		max-width: 300px; 
+ 		height: 150px; 
+  		background: url("/assets/static/cc_logo.png") no-repeat fixed center; 
+ 		position: absolute;
+  		left: -6.5rem;
+ 		bottom: 0.1rem;
+	}
+	*/
+
+
+	/* this was the orignial style
+	 .by-line:before {		 
 		font-family: 'collier72-icons'; 
 		font-size: 2.7rem;
 		content: 'y';
@@ -28,9 +57,10 @@
 		position: absolute;
 		left: -6.5rem;
 		bottom: 0.1rem;
-		-webkit-font-smoothing: antialiased; 
+		-webkit-font-smoothing: antialiased;
 	}
 	*/
+	
 }
 
 .footer-bottom {
