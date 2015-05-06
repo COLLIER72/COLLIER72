@@ -20,16 +20,17 @@
 		}
 	}
 
-	.by-line:before {
-		font-family: 'sf72-icons';
+	/* .by-line:before {
+		font-family: 'collier72-icons'; 
 		font-size: 2.7rem;
 		content: 'y';
 		color: $mid-grey;
 		position: absolute;
 		left: -6.5rem;
 		bottom: 0.1rem;
-		-webkit-font-smoothing: antialiased;
+		-webkit-font-smoothing: antialiased; 
 	}
+	*/
 }
 
 .footer-bottom {
