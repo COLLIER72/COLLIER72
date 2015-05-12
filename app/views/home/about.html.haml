@@ -10,11 +10,7 @@
 			.about-who
 			%h2 Who
 			%p For #{@city.name}, by #{@city.name}.
-<<<<<<< HEAD
 			%p #{@city.name} is like no other place – and this platform is tailored to the particular quirks, context and people that make up our county.
-=======
-			%p #{@city.name} is like no other place – and this platform is tailored to the particular quirks, context and people that make up our city.
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 		%li
 			.about-what
 			%h2 What
@@ -24,11 +20,7 @@
 			.about-why
 			%h2 Why
 			%p A little now will mean a lot later; connecting with your network, downloading an app, or watching a video is the first step towards being better prepared for an emergency.
-<<<<<<< HEAD
 			%p #{@city.name}, along with other places across the country, is leading the charge for a different kind of emergency prep. Let’s start the movement.
-=======
-			%p #{@city.name}, along with other cities across the country, is leading the charge for a different kind of emergency prep. Let’s start the movement.
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 
 	- if !@about.photographer_1.blank?
 		.image-credits
@@ -53,8 +45,4 @@
 					, and
 					= link_to @about.photographer_5, @about.photographer_5_url, target: '_blank'
 				= "."
-<<<<<<< HEAD
 	= render :partial => "partials/footer"
-=======
-	= render :partial => "partials/footer"
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae

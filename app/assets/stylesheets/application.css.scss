@@ -47,11 +47,7 @@ $video-play: 'I';
 /* Home icons mixins */
 @mixin icon($color,$icon-font-size,$icon,$bg,$pos-top,$pos-left){
 	&:before{
-<<<<<<< HEAD
 		font-family: 'collier72-icons';
-=======
-		font-family: 'sf72-icons';
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 		font-size: $icon-font-size;
 		color: $color;
 		content: $icon;
@@ -281,11 +277,7 @@ body {
 		line-height: 4.5625rem;
 		color: #FFF;
 		padding: 98px 130px 30px;
-<<<<<<< HEAD
 		text-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
-=======
-		text-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 		margin-top: 0;
 	}
 
@@ -374,11 +366,7 @@ body {
 
 .tooltip:before,
 .tooltip:after {
-<<<<<<< HEAD
 	font-family: "collier72-icons";
-=======
-	font-family: "sf72-icons";
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 	content:'y';
 	color: #FFF;
 	position: absolute;

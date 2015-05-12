@@ -1,30 +1,17 @@
 @font-face {
-<<<<<<< HEAD
 	font-family: 'collier72-icons';
 	src:url('/assets/collier72-icons.eot');
 	src:url('/assets/collier72-icons.eot?#iefix') format('embedded-opentype'),
 		url('/assets/collier72-icons.woff') format('woff'),
 		url('/assets/collier72-icons.ttf') format('truetype'),
 		url('/assets/collier72-icons.svg#collier72-icons') format('svg');
-=======
-	font-family: 'sf72-icons';
-	src:url('/assets/sf72-icons.eot');
-	src:url('/assets/sf72-icons.eot?#iefix') format('embedded-opentype'),
-		url('/assets/sf72-icons.woff') format('woff'),
-		url('/assets/sf72-icons.ttf') format('truetype'),
-		url('/assets/sf72-icons.svg#sf72-icons') format('svg');
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 	font-weight: normal;
 	font-style: normal;
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-<<<<<<< HEAD
 	font-family: 'collier72-icons';
-=======
-	font-family: 'sf72-icons';
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 	content: attr(data-icon);
 	speak: none;
 	font-weight: normal;
@@ -41,11 +28,7 @@ you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
 .icon-quick-guide, .icon-sms, .icon-fuel, .icon-close, .icon-twitter-big, .icon-twitter-big-on, .icon-map-on, .icon-disaster-other, .icon-disaster-connection, .icon-disaster-terrorist, .icon-disaster-hurricane, .icon-disaster-earthquake, .icon-disaster-radiation, .icon-disaster-flood, .icon-pdf, .icon-map-marker, .icon-arrow, .icon-mail, .icon-print, .icon-share-fb, .icon-share-twitter, .icon-sf72, .icon-refresh, .icon-unfold, .icon-dropdown, .icon-close-small, .icon-logo-sf72, .icon-menu-mobile, .icon-map-tips, .icon-alert, .icon-transport, .icon-info, .icon-about-tooltip, .icon-app-tooltip, .icon-manifesto {
-<<<<<<< HEAD
 	font-family: 'collier72-icons';
-=======
-	font-family: 'sf72-icons';
->>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
