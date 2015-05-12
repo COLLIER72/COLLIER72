@@ -9,7 +9,11 @@
 .home .page-intro .big-title {
 	@include retina-image(/assets/placeholder-home, 1020px 538px, jpg);
 	background-position: left top;
+<<<<<<< HEAD
 	text-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+=======
+	text-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 }
 
 .home .page-intro .big-title {
@@ -17,7 +21,11 @@
 	h1 {
 		font-size: 3.5rem;
 		margin-top: 3rem;
+<<<<<<< HEAD
 		text-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+=======
+		text-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 		padding: 0 5rem;
 	}
 
@@ -41,7 +49,11 @@
 				color: $highlight;
 				line-height: 1rem;
 				margin-top: 3.75rem;
+<<<<<<< HEAD
 				/* text-shadow: 0 0 40px rgba(0, 0, 0, 0.15); */
+=======
+				text-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 			}
 
 			span {
@@ -405,7 +417,11 @@
 	position: absolute;
 	top: 0.5rem;
 	left: 0.8rem;
+<<<<<<< HEAD
 	font-family: 'collier72-icons';
+=======
+	font-family: 'sf72-icons';
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 	content: 'u';
 	font-size: 1.7rem;
 	-webkit-font-smoothing: antialiased;

@@ -8,6 +8,7 @@
     %ul
       %li
         %h2 What is #{@city.abbreviation}72?
+<<<<<<< HEAD
         %span #{@city.abbreviation}72 is your hub for emergency preparedness. You’ll find information about what to do in an emergency, simple steps to get connected, and useful guides to help you get prepared. Share #{@city.abbreviation}72 with a friend—and help your loved ones and your county get prepared.
       %li
         %h2 Why 72?
@@ -16,6 +17,16 @@
     %div
       %h2 We believe in connection,</br>not catastrophe.
       %span Actual emergencies look more like people coming together than counties falling apart. #{@city.abbreviation}72 is about prompting #{city_residents} to get connected before an emergency—so we can be that much better off when something happens.
+=======
+        %span #{@city.abbreviation}72 is your hub for emergency preparedness. You’ll find information about what to do in an emergency, simple steps to get connected, and useful guides to help you get prepared. Share #{@city.abbreviation}72 with a friend—and help your loved ones and your city get prepared.
+      %li
+        %h2 Why 72?
+        %span In a serious emergency, city services will be impacted, so a basic rule of thumb is for people to be able to take care of each other for 72 hours before help arrives. That’s just three days—think of it as a long weekend—or nine meals.
+  .connection{:style => "background-image: url(#{@city.resident_image.url || "assets/placeholder-residents.jpg"})"}
+    %div
+      %h2 We believe in connection,</br>not catastrophe.
+      %span Actual emergencies look more like people coming together than cities falling apart. #{@city.abbreviation}72 is about prompting #{city_residents} to get connected before an emergency—so we can be that much better off when something happens.
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
   .learn
     %h1 Good news. You’re more prepared than you think.</br>Learn more...
     %ul
@@ -31,4 +42,8 @@
         %a.learn-plan{href:"/plan"}
           %h2 Make</br>a Plan
           %p Make a basic plan with your loved ones—so you know what to do in an emergency.
+<<<<<<< HEAD
   = render :partial => "partials/footer"
+=======
+  = render :partial => "partials/footer"
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae

@@ -5,14 +5,24 @@
 }
 
 #logo {
+<<<<<<< HEAD
 	@include span-columns(3.8);
 	margin-top: 2.0rem;
+=======
+	@include span-columns(3.37061107);
+	margin-top: 1.5rem;
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 	text-align: center;
 	padding: .5rem 1rem;
 
 	img {
+<<<<<<< HEAD
 		max-width: 200px;
 		max-height: 64px;
+=======
+		max-width: 170px;
+		max-height: 60px;
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 	}
 }
 
@@ -36,7 +46,11 @@
 }
 
 .main-nav > li {
+<<<<<<< HEAD
 	@include span-columns(1.85);
+=======
+	@include span-columns(2);
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 	@include omega;
 	position: relative;
 	border-left: 2px solid lighten( $light-grey, 5% );
@@ -96,7 +110,11 @@
 			position: absolute;
 			right: -1em;
 			top: 0;
+<<<<<<< HEAD
 			font-family: 'collier72-icons';
+=======
+			font-family: 'sf72-icons';
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
 			content: 's';
 			font-size: 0.8em;
 			
@@ -169,4 +187,8 @@
 
 #build-menu-button {
 	display: none;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0ac6b25d341246735da47a54bf17e0852f58c6ae
