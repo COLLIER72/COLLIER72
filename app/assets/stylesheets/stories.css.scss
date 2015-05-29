@@ -24,12 +24,13 @@
         padding: 0;
         float: none;
         width: 100%;
+        text-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
       }
 
       h2 {
         font-size: 21px;
         color: #FFF;
-        /* text-shadow: 0 0 40px rgba(0, 0, 0, 0.15); */
+        text-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
         margin: -0.5rem 0 0;
       }
     }
