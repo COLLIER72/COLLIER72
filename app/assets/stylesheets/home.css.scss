@@ -96,6 +96,8 @@
 	h2 {
 		margin: 0.8rem 0 1rem;
 		line-height: 1.356 !important;
+		text-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+		
 	}
 
 	ul {
@@ -155,6 +157,8 @@
 			.learn-plan {
 				@include retina-image(/assets/static/home3_3, 337px 345px);
 				@include icon(#FFF,3.5rem,$phone,$highlight,-50px,45px);
+
+			
 			}
 		}
 	}
