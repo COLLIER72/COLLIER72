@@ -48,14 +48,7 @@
         .form-group
           = f.input_field :photographer_5, placeholder: 'Name of Photographer'
           = f.input_field :photographer_5_url, placeholder: 'Link to Photo or Website'
-      %li
-        .form-group
-          = f.input_field :photographer_6, placeholder: 'Name of Photographer'
-          = f.input_field :photographer_6_url, placeholder: 'Link to Photo or Website'
-      %li
-        .form-group
-          = f.input_field :photographer_7, placeholder: 'Name of Photographer'
-          = f.input_field :photographer_7_url, placeholder: 'Link to Photo or Website'
+
 
     - unless flash.empty?
       .alert.alert-dismissable{:class => (flash.first[0] == :error)? "alert-danger" : "alert-success"}
