@@ -18,7 +18,7 @@
               can't be blank
           .form-group(ng-class="{'has-error': supplyForm.use_case.$dirty && supplyForm.use_case.$invalid}")
             %label.control-label{:for => 'use_case'} Supply Details
-            %textarea.form-control#supply-description{:name => 'use_case', :cols => '90', :rows => '8'}(ng-model="supplyInEdition.use_case" required)
+            %textarea.form-control#supply-description{:name => 'use_case', :cols => '90', :rows => '8'}(ng-model="supplyInEdition.use_case")
             %span.help-block(ng-show="supplyForm.use_case.$dirty && supplyForm.use_case.$invalid")
               can't be blank
       .modal-footer
