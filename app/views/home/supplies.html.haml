@@ -26,7 +26,7 @@
             %h4 #{item.title}
             %p.overlay-text #{item.use_case}
     %li.tab-useful-content
-      %p.tab-tip These items represent things that many people want in an emergency—but don’t always think of. Stash them away, and you’ll get through the first 72 hours more easily.
+      %p.tab-tip These items represent things many people want in an emergency, but don't always think of. Stash them away and you'll get through the first 72 hours more easily.
       %ul.things-list.useful
         - @useful.each do |item|
           %li
@@ -46,8 +46,8 @@
             %h4 #{item.title}
             %p.overlay-text #{item.use_case}
   .kits
-    %h2 Sharing is caring.
-    %p Emergencies are opportunities to come together and support those around you. What items would you’d like to share? Drinking a hot cup of coffee, singing songs, or sharing  a meal are even more meaningful in the days after an emergency than before.
+    %h2 Sharing is caring
+    %p Emergencies are opportunities to come together and support those around you. What items would you like to share? Drinking a hot cup of coffee, singing songs or sharing  a meal are even more meaningful in the days following an emergency than before.
     %ul.kits-list
       - @kits.each do |kit|
         %li
