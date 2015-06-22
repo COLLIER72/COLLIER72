@@ -404,7 +404,7 @@ namespace :city72 do
           description: 'Ensure a <a href="http://www.ready.gov/managing-water">supply of water</a> for sanitary purposes such as cleaning and flushing toilets. Fill the bathtub and large containers with water.',
         }, {
           moment_type: :after,
-          title: 'Find your family.',
+          title: 'Find your Family.',
           description: 'If you are separated from your family, use your <a href="#">family communications plan</a>, contact the American Red Cross (ARC) at 1-800-RED-CROSS/1-800-733-2767 or visit the ARC Safe and Well site: <a href="http://www.safeandwell.org/">www.safeandwell.org</a>.',
         }, {
           moment_type: :after,
