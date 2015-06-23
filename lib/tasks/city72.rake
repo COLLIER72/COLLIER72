@@ -384,11 +384,11 @@ namespace :city72 do
           description: 'Gather and <a href="/supplies">organize supplies</a> (essentials, useful, and personal items to help you weather the storm) and make a family communications plan for what to do in a hurricane.',
         }, {
           moment_type: :before,
-          title: 'Learn your evacuation route.',
+          title: 'Learn your evacuation route',
           description: 'Learn evacuation routes and how to find higher ground. Determine where you would go and how you would get there if you needed to evacuate.',
         }, {
           moment_type: :before,
-          title: 'Secure your home.',
+          title: 'Secure your home',
           description: 'Secure your home, close storm shutters, and secure outdoor objects or bring them indoors.',
         }, {
           moment_type: :during,
@@ -400,23 +400,23 @@ namespace :city72 do
           description: '<a href="http://www.ready.gov/utility-shut-safety">Turn off utilities</a> and propane tanks if instructed to do so. Otherwise, turn the refrigerator to its coldest setting and keep its doors closed (here\'s how to <a href="http://www.ready.gov/food">keep food safe</a> during and after an emergency).',
         }, {
           moment_type: :during,
-          title: 'Save a Supply of Water.',
+          title: 'Save a Supply of Water',
           description: 'Ensure a <a href="http://www.ready.gov/managing-water">supply of water</a> for sanitary purposes such as cleaning and flushing toilets. Fill the bathtub and large containers with water.',
         }, {
           moment_type: :after,
-          title: 'Find your Family.',
+          title: 'Find your Family',
           description: 'If you are separated from your family, use your <a href="#">family communications plan</a>, contact the American Red Cross (ARC) at 1-800-RED-CROSS/1-800-733-2767 or visit the ARC Safe and Well site: <a href="http://www.safeandwell.org/">www.safeandwell.org</a>.',
         }, {
           moment_type: :after,
-          title: 'Inspect your home for damage.',
+          title: 'Inspect your home for damage',
           description: 'Take pictures of damage (both of the building and its contents) for insurance purposes. If safety is a concern, have your residence inspected by a building inspector or structural engineer before entering.',
         }, {
           moment_type: :after,
-          title: 'Practice Fire Safety.',
+          title: 'Practice Fire Safety',
           description: 'Use battery-powered flashlights in the dark. DO NOT use candles, in order to prevent fires.',
         }, {
           moment_type: :after,
-          title: 'Check back here.',
+          title: 'Check back here',
           description: 'In an emergency, this site will go into Crisis Mode and will provide a live stream of official updates as well as crowdsourced reports.',
         }
       ]
